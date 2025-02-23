@@ -33,11 +33,6 @@ ui.markdown(
     """
 )
 
-
-# @render.ui
-# def number():
-#     return demand.get()
-
 @render.code
 def txt1():
     return f'Demand: {demand()}'
